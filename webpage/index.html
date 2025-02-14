@@ -53,7 +53,7 @@
                         <h1 class="text-lg text-indigo-900 font-serif ">Topics</h1>
                         <img src="img/icon/down.svg" alt="down" id="down">
                     </div>
-                    <div class=" bg-white grid gap-2 z-10 top-12 hidden absolute" id="nav1">
+                    <div class=" bg-white w-48 px-2 py-4 right-1 grid gap-2 z-10 top-12 hidden absolute" id="nav1">
                         <a href="#" class="text-gray-500 hover:text-red-900 hover:underline ">Featured</a>
                         <a href="#" class="hover:text-red-900 hover:underline">Arts, Humanities, & Social Sciences</a>
                         <a href="#" class="hover:text-red-900 hover:underline">Campus & Community</a>
@@ -64,9 +64,9 @@
                 </div>
                 
             </div>
-            <div class="mt-16 flex gap-7">
-                <div class="grid">
-                    <div class="bg-white grid place-items-center border-white border-4 group">
+            <div class="mt-16 flex justify-items-center gap-7">
+                <div class="grid w-[120%]">
+                    <div class="bg-white grid place-items-center group">
                         <div class="overflow-hidden">
                             <img src="img/whiteLineguys.jpg" alt="whiteLineguys" class="group-hover:scale-110">
                         </div>
@@ -79,7 +79,7 @@
                         <div class="border-[3px] mt-8 border-gray-300 w-8 align-middle"></div>
                     </div>
                 </div>
-                <div class="grid justify-between gap-10">
+                <div class="grid justify-between pt-6 gap-10">
                     <div class="grid grid-cols-2 gap-7">
                         <div class="bg-white grid place-items-center group">
                             <div class="overflow-hidden">
@@ -138,6 +138,31 @@
             </div>
         </div>
     </section>    
+    
+    <section class="mt-32 bg-[url('img/hands.webp')] h-screen bg-no-repeat bg-cover">
+        <div class="relative ">
+            <div class="absolute group border-blue-300 bg-indigo-950 w-[500px] top-12 right-0 left-10 px-2 py-2">
+                <div class=" border-1 border-gray-600 px-4 h-[500px] w-full py-6 text-center space-y-7">
+                    <h1 class="text-sm font-semibold  text-white">
+                        Campus & Community
+                    </h1>
+                    <div class="">
+                        <h2 class=" text-3xl font-medium font-serif text-white group-hover:underline">Penn Center for Innovation celebrates 10 years</h2>
+                    </div>
+                    
+                    <div class="border-2 border-gray-500 w-5 mx-auto"></div>
+                    <p class="max-w-xs text-medium text-lg font-medium text-white mx-auto text-center">
+                        The University’s nexus for technology transfer supports researchers in their innovative efforts, from CAR T to mRNA advancements that have dramatically reshaped the world.
+                    </p>
+                    <button class="group rounded-full px-12  py-6 border-[0.5px] mx-auto text-center text-sm text-white uppercase mt-8 group-hover:bg-white border-gray-600 group-hover:border-white group-hover:text-red-500">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
     <script>
        function touch(el) {
         const Topics = document.getElementById("Topics");
