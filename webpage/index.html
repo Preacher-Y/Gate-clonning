@@ -17,11 +17,40 @@
             </div>
         </div>
     </section>
-    <header class="" onscroll="bgcha(this)">
-        <div>
-            <img src="img/icon/UPenn-logo-pc.svg" alt="UPenn-logo-pc" class="">
-        </div>
 
-    </header>
+    <section class=" relative">
+
+        <header class="z-10 fixed top-0 " onscroll="bgcha(this)" id="header">
+            <div class="flex items-center justify-between">
+                <div class="py-8 px-4 ">
+                    <img src="img/icon/UPenn-logo-pc.svg" alt="UPenn-logo-pc" class="h-16">
+                </div>
+                <div>
+                    <img src="img/icon/search.svg" alt="search" class="">
+                </div>
+            </div>
+            
+        </header>
+        
+        <section class="py-40 px-4 bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/avian-bird-flu.jpg')] bg-cover text-white ">
+            <div>
+                <h1 class="text-2xl font-medium brightness-100 "> Health Sciences</h1>
+                <a href="#" class="">
+                    <h2 class="font-serif whitespace-pre-line pt-6 text-4xl">How Penn is helping with bird flu
+                        research and disease surveillance</h2>
+                    <p class="mt-4">Faculty are working on a new vaccine for the H5N1 virus, studying its transmission, and helping the state test samples from birds and mammals.</p>
+                </a>
+                    
+            </div>
+        </section>
+            
+    </section>
+
+    <script>
+        function bgcha(el){
+            const header= getElementById("header");
+            header.classlist.toggle("bg-white");
+        }
+    </script>
 </body>
 </html>
